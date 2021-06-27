@@ -1,0 +1,209 @@
+.mobile{
+    display: none;
+}
+.web{
+    display: contents;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.web-text hr{
+    width: 500px;
+}
+.web-text{
+    margin-top: 200px;
+}
+.web-text h2{
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+.w-50{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+.light-text{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 480px) {
+    .web{
+        display: none;
+    }
+    .mobile{
+        display: contents;
+    }
+    body{
+        background-color: black;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navbar .container-fluid{
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .brand{
+        width: 150px;
+        height: auto;
+        /* filter: contrast(60); */
+        filter: brightness(30);
+    }
+    .bi,
+    .bi-messenger,
+    .messenger,
+    .bullet-menu{
+        color: #FFF;
+        float: right;
+        font-size: 30px;
+        margin-top: 3px;
+    }
+    
+    .container{
+        margin-top: 8px;
+    }
+    .status{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.637);
+        padding-bottom: 5px;
+    }
+    .status ul,
+    li{
+        list-style: none;
+        display: inline-block;
+        padding: 7px;
+    }
+    .circle{
+        /* background-color: rgb(77, 77, 77); */
+        background-image: url('../images/eddie-kopp-2zFna5RUGyU-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid black ;
+        border-radius: 100%;
+        height: 65px;
+        width: 65px;
+    }
+    .statut_1{
+        background-image: url('../images/IMG_4564.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .statut_2{
+        background-image: url('../images/IMG_4557.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .statut_3{
+        background-image: url('../images/IMG_4553.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .statut-circle{
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+    }
+    .add, 
+    .view-statut{
+        -webkit-border-radius: 100%;
+        border-radius: inherit;
+        /* border: 4px solid ; */
+        margin-top: -30px;
+        padding: 3px;
+        background-image: linear-gradient(to bottom right, rgb(255, 0, 119), rgb(255, 230, 0));
+        /* border-image: linear-gradient(rgb(255, 0, 191), rgb(255, 238, 0)) 27;   */
+    }
+    .add{
+        background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 0, 0));
+    }
+    .text{
+        position: absolute;
+        padding: 5px 0;
+    }
+    .bi-plus-circle-fill{
+        position: relative;
+        font-size: 23px;
+        color: rgb(24, 170, 255);
+        border: 3px solid black;
+        border-radius: 100%;
+        margin: 40px -8px 0 0;
+        background-color: black;
+    }
+    .card-head{
+        background-color: black;
+        padding-top: 8px;
+    }
+    .card-img{
+        height: 300px;
+        width: 260px;
+        object-fit: cover;
+        margin-top: -25px;
+    }
+    .card-img-top{
+        height: 350px;
+        width: 396px;
+        object-fit: contain;
+    }
+    .card-head{
+        align-content: center;
+    }
+    .bullet-menu{
+        margin: -45px 0 0 350px;
+        position: absolute;
+        float: right;
+    }
+    .profile-name .circle{
+        height: 45px;
+        width: 45px;
+        background-image: url('../images/eddie-kopp-2zFna5RUGyU-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 8px;
+    }
+    .name{
+        margin-top: 9px;
+        margin-left: 60px;
+        position: absolute;
+        font-size: 1.2em;
+    }
+    .card-text ul{
+        margin-left: -35px;
+    }
+    .action{
+        padding-right: 14px;
+    }
+    .bi-bookmark{
+        margin-right: -210px;
+    }
+    .like{
+        margin-top: -38px;
+        margin-left: 8px;
+    }
+    .caption{
+        margin-left: 8px;
+        margin-top: 42px;
+        width: 200px;
+    }
+    .tag{
+        color: rgb(125, 196, 199);
+    }
+    .card-2{
+        margin-top: 240px;
+    }
+    .account{
+        font-weight:600;
+    }
+
+    footer{
+        background-color: black;
+        border-top: 1px solid #FFF;
+        position: fixed;
+        margin-top: 30px;
+        color: #FFF;
+    }
+    footer ul li{
+        padding: 0 30px;
+    }
+}
