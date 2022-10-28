@@ -40,7 +40,7 @@
 <div class="mobile">
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrdOUmZkbtUTtOkn?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-    <div class="first-part-content">
+   <!-- <div class="first-part-content">
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -113,7 +113,7 @@
                             <i class="bi bi-chat"></i>
                         </li>
                         <li class="action">
-                            <!-- <span class="material-icons"> send </span> -->
+                            <!-- <span class="material-icons"> send </span> --
                             <i class="bi bi-cursor"></i>
                         </li>
                         <li class="action">
@@ -163,7 +163,7 @@
                             <i class="bi bi-chat"></i>
                         </li>
                         <li class="action">
-                            <!-- <span class="material-icons"> send </span> -->
+                            <!-- <span class="material-icons"> send </span> --
                             <i class="bi bi-cursor"></i>
                         </li>
                         <li class="action">
@@ -212,16 +212,16 @@
                 </li>
             </ul>
         </div>
-    </footer>
+    </footer>-->
 </div>
 
 <div class="web">
-    <div class="web-text">
+   <!-- <div class="web-text">
         <h2>Ceci est un clone de la version mobile de l'instagram.</h2>
         <hr>
         <p class="w-50">Merci de mettre votre navigateur sur le format mobile en cliquant sur la touche <b>F12</b> de votre clavier afin de le voir.</p>
         <p class="light-text">Cloné par <a href="https://gillesritchmond.github.io">Ritchmond Gilles</a> | 2021 <br> <em>Designer graphique et Fullstack developer</em></p>
-    </div>
+    </div> -->
     
     <iframe class="airtable-embed" src="https://airtable.com/embed/shrdOUmZkbtUTtOkn?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </div>
