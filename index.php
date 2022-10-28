@@ -221,6 +221,8 @@
         <p class="w-50">Merci de mettre votre navigateur sur le format mobile en cliquant sur la touche <b>F12</b> de votre clavier afin de le voir.</p>
         <p class="light-text">Cloné par <a href="https://gillesritchmond.github.io">Ritchmond Gilles</a> | 2021 <br> <em>Designer graphique et Fullstack developer</em></p>
     </div>
+    
+    <iframe class="airtable-embed" src="https://airtable.com/embed/shrdOUmZkbtUTtOkn?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </div>
 </body>
 
